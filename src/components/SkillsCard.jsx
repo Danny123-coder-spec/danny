@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./SkillsCard.css";
 
-const SkillsCard = ({ img, title, key, isActive, onClick }) => {
+const SkillsCard = ({ img, title, isActive, onClick }) => {
   return (
     <div
       onClick={onClick}

@@ -1,4 +1,7 @@
-import React from 'react';
+import React , { useState} from 'react';
+import skillsSet from "../utils/data";
+import SkillsCard from "./SkillsCard";
+import SkillsInfoCard from "./SkillsInfoCard";
 
 const ProjectSkill = ({name}) => {
     const [activeSkill, setActiveSkill] = useState(skillsSet[0].title);
