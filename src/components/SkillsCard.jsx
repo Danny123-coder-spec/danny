@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./SkillsCard.css";
+import "./SkillsCard.css"
 
 const SkillsCard = ({ img, title, isActive, onClick }) => {
   return (
