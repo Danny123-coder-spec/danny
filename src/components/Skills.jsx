@@ -4,7 +4,7 @@ import skillsSet from "../utils/data";
 import SkillsCard from "./SkillsCard";
 import SkillsInfoCard from "./SkillsInfoCard";
 
-const Skills = ({ name }) => {
+const Skill = ({ name }) => {
   const [activeSkill, setActiveSkill] = useState(skillsSet[0].title);
 
   const handleSkillClick = (title) => {
@@ -36,4 +36,4 @@ const Skills = ({ name }) => {
   );
 };
 
-export default Skills;
+export default Skill;

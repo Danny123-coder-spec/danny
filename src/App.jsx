@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hero from "./components/Hero";
 import "./App.css";
-import Skills from "./components/skills";
+import ProjectSkill from './components/ProjectSkill'
 import Projects from "./components/Projects";
 import Message from "./components/Message";
 import Footer from "./components/Footer";
@@ -17,17 +17,17 @@ function App() {
 
   return (
     <>
-      <Router>
+     
         <Toaster/>
         <Navbar />
         <div className="container">
           <Hero />
         </div>
-        <Skills name="Technical Skills" />
+        <ProjectSkill name='Technical Skills'/>
         <Projects name="My Projects"/>
         <Message name='Message Me'/>
         <Footer/>
-      </Router>
+      
     </>
   );
 }
